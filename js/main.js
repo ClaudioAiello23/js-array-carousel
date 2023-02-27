@@ -55,17 +55,18 @@ all'immagine posizionata successivamente alla prima; nella IF si è specificato
 che la funzione del click deve svolgersi fino alla penultima immagine compresa
 (imgBoxes.length -1),in quanto per l'ultima immagine non sarà più necessario
 cliccare.*/
+console.log('Immagine di partenza:' , imgSelected);
 downArrow.addEventListener('click',
 
 function(){
 
     if (imgSelected < imgBoxes.length -1){
 
-        console.log(imgSelected);
         imgBoxes[imgSelected].classList.remove('img_show');
+        console.log('Ultima img richiamata - posizione: ' , imgSelected);
         imgSelected++;
         imgBoxes[imgSelected].classList.add('img_show');
-        console.log(imgSelected);
+        console.log('Ultima img richiamata - posizione: ', imgSelected);
 
     }
     
@@ -84,11 +85,11 @@ function(){
 
     if (imgSelected > 0){
 
-        console.log(imgSelected);
         imgBoxes[imgSelected].classList.remove('img_show');
+        console.log('Ultima img richiamata - posizione: ', imgSelected);
         imgSelected--;
         imgBoxes[imgSelected].classList.add('img_show');
-        console.log(imgSelected);
+        console.log('Ultima img richiamata - posizione: ', imgSelected);
 
     }
     

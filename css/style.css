@@ -56,7 +56,7 @@ COMMON
 .img_container img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover;  /*se l'img esce dal contenitore, si può sistemare con le regole object-fit */
     object-position: 50% 30%;
 }
 
