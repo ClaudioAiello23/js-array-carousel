@@ -12,6 +12,22 @@ RESET
 
 /* 
 ********************
+SETUP
+******************** 
+*/
+
+.container{
+    background: lightblue;
+    border: 1px dashed red;
+}
+
+.img_container{
+        background: lightgray;
+        border: 1px dashed red;
+}
+
+/* 
+********************
 COMMON
 ******************** 
 */
@@ -20,6 +36,7 @@ COMMON
     max-width: 1200px;
     height: 800px;
     margin: 0 auto;
+    display:flex;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
@@ -27,16 +44,15 @@ COMMON
     border: 1px dashed red;
 }
 
-.flex{
-    display:flex;
+.img_container{
+    position: relative;
+    background: lightgray;
+    border: 1px dashed red;
 }
 
 .img_box{
     width: 650px;
     height: 250px;
-    position: relative;
-    background: lightgray;
-    border: 1px dashed red;
 }
 
 .img_box img{
@@ -58,4 +74,15 @@ COMMON
 
 #down_arrow{
     bottom: 3%;
+}
+
+/* Classi create per mostrare/nascondere le IMG del Carousel 
+- Dialogo con impostazioni file JS - JavaScript */
+
+.img_show{
+    opacity: 1;
+}
+
+.img_hide{
+    opacity: 0;
 }
