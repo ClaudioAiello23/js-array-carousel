@@ -49,6 +49,7 @@ COMMON
 .img_box{
     width: 650px;
     height: 250px;
+    opacity: 0;
 }
 
 
@@ -80,8 +81,4 @@ COMMON
 
 .img_show{
     opacity: 1;
-}
-
-.img_hide{
-    opacity: 0;
 }

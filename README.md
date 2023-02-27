@@ -19,3 +19,6 @@ MILESTONE 2 - INIZIO IMPOSTAZIONE PARTE JAVASCRIPT
 - commentare il tag dell'immagine inizialmente creato con HTML ();
 - creazione di una lista Array che contenga le 5 immagini fornite;
 - impostazione classi css per nascondere/mostrare le img (utilizzata la regola Opacity con valore 1=mostra e 0=nascondi);
+----------------------------------------------------------------
+
+MILESTONE 3 - 
