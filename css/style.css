@@ -49,7 +49,7 @@ COMMON
 .img_box{
     width: 650px;
     height: 250px;
-    opacity: 0;
+    display: none;
 }
 
 
@@ -80,5 +80,5 @@ COMMON
 - Dialogo con impostazioni file JS - JavaScript */
 
 .img_show{
-    opacity: 1;
+    display: block;
 }
