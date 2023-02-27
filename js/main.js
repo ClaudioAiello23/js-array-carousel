@@ -1,5 +1,6 @@
 'use strict';
 
+
 const imgCollection = ['01.webp', '02.webp', '03.webp', '04.webp', '05.webp'];
 
 let imgContent = '';
@@ -19,9 +20,25 @@ document.querySelector('.img_box').classList.add('img_show');
 
 
 // Gestione frecce per successione immagini
-const upArrow = getElementById('up_arrow');
-const downArrow = getElementById('down_arrow');
+const upArrow = document.querySelector('.up_arrow');
+const downArrow = document.querySelector('.down_arrow');
 
+downArrow.addEventListener('click',
 
+function(){
+    alert('down');
+
+}
+
+)
+
+upArrow.addEventListener('click',
+
+function(){
+    alert('up');
+
+}
+
+)
 
 

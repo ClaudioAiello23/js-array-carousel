@@ -58,18 +58,20 @@ COMMON
     object-fit: cover;
 }
 
-#up_arrow, #down_arrow{
+.up_arrow, .down_arrow{
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0);
     color: grey;
+    cursor: pointer;
+    z-index: 999;
 }
 
-#up_arrow{
+.up_arrow{
     top: 3%;
 }
 
-#down_arrow{
+.down_arrow{
     bottom: 3%;
 }
 
