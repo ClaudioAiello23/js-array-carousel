@@ -1,1 +1,19 @@
 'use strict';
+
+const imgCollection = ['01.webp', '02.webp', '03.webp', '04.webp', '05.webp'];
+
+let imgContent = '';
+
+const container = document.querySelector('.img_container');
+
+
+for (let i = 0; i < imgCollection.length; i++){
+
+    imgContent +='<div class=img_box><img src="img/01.webp" alt=""></div>';
+
+}
+
+container.innerHTML += imgContent;
+document.querySelector('.img_box').classList.add('img_show');
+
+
